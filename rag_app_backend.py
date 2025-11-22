@@ -14,6 +14,8 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import OpenAIEmbeddings
+from dotenv import load_dotenv
+load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
