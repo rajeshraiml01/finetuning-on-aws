@@ -1,0 +1,38 @@
+S3
+Sagemaker
+Lambda
+API Gateway
+Dynamo DB
+Cloud watch
+IAM
+
+
+
+LL - Parameter --
+
+SFT 
+Instruction and No
+
+PEFT -- >LORA 
+        DORA
+        Adaptor
+        QLORA
+
+
+DPO 
+
+Framework 
+    Hugging face
+    LLAMA factory
+    Unsloth
+    Avolotha
+
+https://docs.google.com/document/d/1NfLe1jQUGpeX0qOQnoggl5kZroKoM9m5YLOAyhL-huA/edit?tab=t.0
+
+LambdaInvokeLLMRole
+SageMakerLLMRole
+
+llm-finetune-dataset-rajeshr340  - s3 bucket
+llm-model-artifacts-rajeshr340 - s3 bucket
+
+
